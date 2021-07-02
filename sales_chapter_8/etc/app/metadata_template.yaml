@@ -1,0 +1,23 @@
+title: Modify etc/app/metadata.yml
+license: ~
+license_url: http://example.com/
+source: Building Data Products
+source_url: https://example.com/
+databases:
+  sales:
+    source: ~
+    description_html: |-
+       <strong>Description:</strong> ~ <br>
+       <strong>Source:</strong> ~ <br>
+       <strong>Source table(s):</strong> ~ <p></p>
+       <a href = "mailto: manager@example.com">~Business Contact</a><br>
+       <a href = "mailto: tech@example.com">~Technical Contact</a>
+    tables:
+      table_001:
+        description_html: |-
+         <strong>Description:</strong> ~ <br>
+         <strong>Source:</strong> ~ <br>
+         <strong>Source table(s):</strong> ~ <p></p>
+         <strong>Reports:</strong><br>
+         <a href="http://example.com/path/to/file.html" target="_blank">~.html</a><br>
+         <p></p>

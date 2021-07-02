@@ -1,0 +1,1 @@
+2021-05-19T00:00:00-MST [INFO] - Executing log_rotate

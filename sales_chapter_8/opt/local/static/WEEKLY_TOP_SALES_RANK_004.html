@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Discovery Reporting</title>
+    <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+    <style media="screen">
+      /* Add space between Vega-Embed links  */
+      .vega-actions a {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Container for the visualization -->
+    <div id="vis"></div>
+    <script>
+      // Assign the specification to a local variable vlSpec.
+      var vlSpec = {
+        $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
+<!-- Embed Vega-Lite Definition Here -->
+"data":{"url":"/sales/INFO_WEEKLY_TOP_SALES_RANK_002.json?_shape=array"}, 
+"title":"Weekly Top Sales Rank - JSON API call v2",
+"mark": {"type": "bar", "tooltip": {"content": "data"}},
+  "resolve": {"axis": {"x": "independent", "y": "independent"}},
+  "encoding": {
+    "facet": {"field": "preferred_description", "type": "ordinal", "columns": 3, "sort": {"op": "sum", "field": "total_sales_revenue", "order": "descending"}},
+    "x": {"field": "end_of_week_ssmtwtf", "type": "temporal", "title": "Period", "timeUnit": "month"},
+    "y": {"field": "total_sales_revenue", "type": "quantitative", "title": "Value (GBP)", "aggregate": "sum"},
+  "color": {"field": "preferred_description", "type": "nominal", "title": "Description", "sort": {"op": "sum", "field": "total_sales_revenue", "order": "descending"}}
+}
+};
+
+// Embed the visualization in the container with id `vis`
+vegaEmbed('#vis', vlSpec);
+</script>
+</body>
+</html>

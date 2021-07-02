@@ -1,0 +1,22 @@
+{
+    "default_page_size": 1000,
+    "sql_time_limit_ms": 5000,
+    "max_returned_rows": 5000,
+    "num_sql_threads": 3,
+    "allow_facet": true,
+    "default_facet_size": 10,
+    "facet_time_limit_ms": 1000,
+    "facet_suggest_time_limit_ms": 500,
+    "suggest_facets": true,
+    "allow_download": true,
+    "default_cache_ttl": 5,
+    "default_cache_ttl_hashed": 31536000,
+    "cache_size_kb": 0,
+    "allow_csv_stream": true,
+    "max_csv_mb": 0,
+    "truncate_cells_html": 2048,
+    "force_https_urls": false,
+    "hash_urls": false,
+    "template_debug": false,
+    "base_url": "/"
+}

@@ -1,0 +1,32 @@
+[BHUB_INVOICE_CODES_001]
+    *invoice_code_hkey {label:"TEXT"}
+    provider_code {label:"TEXT"}
+    load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    invoice_code {label:"TEXT"}
+[BHUB_STOCK_CODES_001]
+    *stock_code_hkey {label:"TEXT"}
+    provider_code {label:"TEXT"}
+    load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    stock_code {label:"TEXT"}
+[BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001]
+    *stock_code_hkey {label:"TEXT"}
+    provider_code {label:"TEXT"}
+    load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    preferred_description {label:"TEXT"}
+[BSAT_INVOICES_001]
+    *invoice_hkey {label:"TEXT"}
+    provider_code {label:"TEXT"}
+    *load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    invoice_code {label:"TEXT"}
+    stock_code {label:"TEXT"}
+    invoice_date {label:"TEXT"}
+    customer_code {label:"TEXT"}
+    price {label:"NUMERIC"}
+    quantity {label:"NUMERIC"}
+    invoice_code_hkey {label:"TEXT"}
+    stock_code_hkey {label:"TEXT"}
+    customer_code_hkey {label:"TEXT"}

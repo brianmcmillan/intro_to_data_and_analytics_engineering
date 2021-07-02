@@ -1,0 +1,113 @@
+.
+├── AUTHORS.md
+├── CHANGELOG.md
+├── LICENSE.md
+├── NEWS.md
+├── README.md
+├── etc
+│   ├── app
+│   │   ├── WEEKLY_TOP_SALES_RANK_001.vega
+│   │   ├── er_business_relationships.txt
+│   │   ├── er_tables.er
+│   │   ├── metadata.yaml
+│   │   ├── metadata_template.yaml
+│   │   ├── vega_embed_footer.viz
+│   │   └── vega_embed_header.viz
+│   ├── cron
+│   │   └── crontab.txt
+│   ├── server
+│   │   ├── requirements.txt
+│   │   └── settings.json
+│   ├── software
+│   │   └── sqlite3
+│   │       ├── extension-functions.c
+│   │       ├── libsqlitefunctions.dylib
+│   │       ├── makefile
+│   │       ├── percentile.c
+│   │       ├── percentile.dylib
+│   │       ├── sha1.c
+│   │       ├── sha1.dylib
+│   │       ├── sqlite-amalgamation-3350500
+│   │       │   ├── shell.c
+│   │       │   ├── sqlite3.c
+│   │       │   ├── sqlite3.h
+│   │       │   └── sqlite3ext.h
+│   │       ├── sqlite-amalgamation-3350500.zip
+│   │       └── sqlite3
+│   ├── sql
+│   │   ├── BHUB_INVOICE_CODES_001_create.sql
+│   │   ├── BHUB_INVOICE_CODES_001_load.sql
+│   │   ├── BHUB_STOCK_CODES_001_create.sql
+│   │   ├── BHUB_STOCK_CODES_001_load.sql
+│   │   ├── BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001_create.sql
+│   │   ├── BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001_load.sql
+│   │   ├── BSAT_INVOICES_001_create.sql
+│   │   ├── BSAT_INVOICES_001_load.sql
+│   │   ├── INFO_SALES_LAST_6_MONTHS_FILTERED_001_create.sql
+│   │   ├── INFO_WEEKLY_TOP_SALES_RANK_001_create.sql
+│   │   ├── INFO_WEEKLY_TOP_SALES_RANK_002_create.sql
+│   │   ├── INFO_WEEKLY_TOP_SALES_RANK_002_load.sql
+│   │   ├── RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001_create.sql
+│   │   ├── SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_clean.sql
+│   │   ├── SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_create.sql
+│   │   ├── SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_load.sql
+│   │   ├── SRC_online_retail_II_-_Year_2010-2011_002_create.sql
+│   │   ├── online_retail_II_last_6_months_filtered.sql
+│   │   └── online_retail_II_last_6_months_filtered_002.sql
+│   └── test
+│       └── online_retail_II_last_6_months_filtered.csv
+├── makefile
+├── opt
+│   ├── gcloud
+│   │   ├── metadata.yaml
+│   │   ├── requirements.txt
+│   │   ├── sales.db
+│   │   ├── settings.json
+│   │   └── static
+│   │       └── WEEKLY_TOP_SALES_RANK_004.html
+│   └── local
+│       ├── metadata.yaml
+│       ├── requirements.txt
+│       ├── sales.db
+│       ├── settings.json
+│       └── static
+│           └── WEEKLY_TOP_SALES_RANK_004.html
+├── svc
+│   ├── analysis
+│   │   ├── INFO_WEEKLY_TOP_SALES_RANK_001vs002.sql
+│   │   └── RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001_row_count.sql
+│   ├── db
+│   │   └── sales.db
+│   ├── doc
+│   │   ├── business_tables.pdf
+│   │   ├── directory_listing.txt
+│   │   ├── information_tables.pdf
+│   │   ├── makefile_graph.png
+│   │   ├── meta_tables.pdf
+│   │   └── raw_tables.pdf
+│   ├── load
+│   │   ├── online_retail_II_-_Year_2010-2011.csv
+│   │   └── split_online_retail_II
+│   │       ├── online_retail_II_-_Year_2010-2011_000.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_001.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_002.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_003.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_004.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_005.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_006.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_007.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_008.csv
+│   │       ├── online_retail_II_-_Year_2010-2011_009.csv
+│   │       └── online_retail_II_-_Year_2010-2011_010.csv
+│   ├── source
+│   │   └── online_retail_II.xlsx
+│   └── static
+│       └── WEEKLY_TOP_SALES_RANK_004.html
+├── tmp
+│   └── er_business_tables.er
+└── var
+    └── log
+        ├── cron_log_2021-05-18.txt
+        └── cron_log_2021-05-19.txt
+
+25 directories, 85 files

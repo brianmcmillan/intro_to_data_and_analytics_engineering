@@ -1,0 +1,9 @@
+MAILTO=""
+#LOG_ROTATE - Rotate the log file every day.
+@daily /usr/bin/make -C /Users/brianmcmillan/projects/sales/ -f makefile log_rotate >> /Users/brianmcmillan/projects/sales/var/log/cron_log.txt 2>&1
+#Execute the data pipeline every hour
+#*/15 * * * * /usr/bin/make -C /Users/brianmcmillan/projects/sales/ -f makefile all >> /Users/brianmcmillan/projects/sales/var/log/cron_log.txt 2>&1
+#deploy/gcloud every 6 hours, 30 min past the hour
+#30 */6 * * * /usr/bin/make -C /Users/brianmcmillan/projects/sales/ -f makefile deploy/gcloud >> /Users/brianmcmillan/projects/sales/var/log/cron_log.txt 2>&1
+#deploy/local manually as needed
+#0 */2 * * * /usr/bin/make -C /Users/brianmcmillan/projects/sales/ -f makefile deploy/gcloud >> /Users/brianmcmillan/projects/sales/var/log/cron_log.txt 2>&1

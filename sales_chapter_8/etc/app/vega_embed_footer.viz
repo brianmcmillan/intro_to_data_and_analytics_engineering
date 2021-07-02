@@ -1,0 +1,8 @@
+}
+};
+
+// Embed the visualization in the container with id `vis`
+vegaEmbed('#vis', vlSpec);
+</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+[BHUB_INVOICE_CODES_001]
+    *invoice_code_hkey {label:"TEXT"}
+    provider_code {label:"TEXT"}
+    load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    invoice_code {label:"TEXT"}
+[BHUB_STOCK_CODES_001]
+    *stock_code_hkey {label:"TEXT"}
+    provider_code {label:"TEXT"}
+    load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    stock_code {label:"TEXT"}
+[BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001]
+    *stock_code_hkey {label:"TEXT"}
+    provider_code {label:"TEXT"}
+    load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    preferred_description {label:"TEXT"}
+[BSAT_INVOICES_001]
+    *invoice_hkey {label:"TEXT"}
+    provider_code {label:"TEXT"}
+    *load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    invoice_code {label:"TEXT"}
+    stock_code {label:"TEXT"}
+    invoice_date {label:"TEXT"}
+    customer_code {label:"TEXT"}
+    price {label:"NUMERIC"}
+    quantity {label:"NUMERIC"}
+    invoice_code_hkey {label:"TEXT"}
+    stock_code_hkey {label:"TEXT"}
+    customer_code_hkey {label:"TEXT"}
+[INFO_WEEKLY_TOP_SALES_RANK_002]
+    end_of_week_ssmtwtf {label:"TEXT"}
+    rank {label:"NUMERIC"}
+    stock_code {label:"TEXT"}
+    preferred_description {label:"TEXT"}
+    quantity {label:"NUMERIC"}
+    avg_price {label:"NUMERIC"}
+    total_sales_revenue {label:"NUMERIC"}
+[META_TABLES_001]
+    *table {label:"TEXT"}
+    *column {label:"TEXT"}
+    total_rows {label:"INTEGER"}
+    num_null {label:"INTEGER"}
+    num_blank {label:"INTEGER"}
+    num_distinct {label:"INTEGER"}
+    most_common {label:"TEXT"}
+    least_common {label:"TEXT"}
+[SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001]
+    *provider_code {label:"TEXT"}
+    *hash_diff {label:"TEXT"}
+    load_dts {label:"TEXT"}
+    insert_dts {label:"TEXT"}
+    invoice {label:"TEXT"}
+    stock_code {label:"TEXT"}
+    description {label:"TEXT"}
+    quantity {label:"NUMERIC"}
+    invoice_date {label:"TEXT"}
+    price {label:"NUMERIC"}
+    customer_id {label:"TEXT"}
+    country {label:"TEXT"}
+    invoice_code_hkey {label:"TEXT"}
+    stock_code_hkey {label:"TEXT"}
+    customer_code_hkey {label:"TEXT"}
+    country_code_hkey {label:"TEXT"}
+[SRC_online_retail_II_-_Year_2010-2011_002]
+    provider_code {label:"TEXT"}
+    load_dts {label:"TEXT"}
+    Invoice {label:"TEXT"}
+    StockCode {label:"TEXT"}
+    Description {label:"TEXT"}
+    Quantity {label:"TEXT"}
+    InvoiceDate {label:"TEXT"}
+    Price {label:"TEXT"}
+    Customer ID {label:"TEXT"}
+    Country {label:"TEXT"}

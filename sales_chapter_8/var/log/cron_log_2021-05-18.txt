@@ -1,0 +1,2340 @@
+2021-05-17T10:45:00-MST [INFO] - Splitting svc/load/online_retail_II_-_Year_2010-2011.csv into svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011__###
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_000.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_001.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_002.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_003.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_004.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_005.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_006.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_007.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_008.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_009.csv
+   41911 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_010.csv
+  541911 total
+2021-05-17T10:45:00-MST [INFO] - Loading data from svc/load/online_retail_II_-_Year_2010-2011.csv into SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T10:45:33-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered.sql and exporting to svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T10:45:34-MST [INFO] - Creating table RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T10:45:34-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered_002.sql and exporting to svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T10:45:36-MST [INFO] - Creating table SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T10:45:36-MST [INFO] - Creating table SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T10:45:36-MST [INFO] - Loading csv files from /Users/brianmcmillan/projects/sales/svc/load/online_retail_II and loading into svc/load/online_retail_II/load.csv
+2021-05-17T10:45:36-MST [INFO] - no files to process in svc/load/online_retail_II/
+sort: No such file or directory
+wc: svc/load/online_retail_II/load.csv: open: No such file or directory
+2021-05-17T10:45:36-MST [INFO] - Extracting data from svc/load/online_retail_II/load.csv and loading into load/SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T10:45:36-MST [WARNING] - svc/load/online_retail_II/load.csv file does not exist
+0 records in SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T10:45:36-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_load.sql
+
+2021-05-17T10:45:36-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_clean.sql
+
+2021-05-17T10:45:36-MST [INFO] - Creating table BSAT_INVOICES_001
+2021-05-17T10:45:36-MST [INFO] - Executing etc/sql/BSAT_INVOICES_001_load.sql
+
+2021-05-17T10:46:21-MST [INFO] - Creating table BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001
+2021-05-17T10:46:21-MST [INFO] - Executing etc/sql/BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001_load.sql
+
+2021-05-17T10:52:24-MST [INFO] - Creating table BHUB_STOCK_CODES_001
+2021-05-17T10:52:24-MST [INFO] - Executing etc/sql/BHUB_STOCK_CODES_001_load.sql
+2021-05-17T10:52:25-MST [INFO] - Creating table BHUB_INVOICE_CODES_001
+2021-05-17T10:52:25-MST [INFO] - Executing etc/sql/BHUB_INVOICE_CODES_001_load.sql
+2021-05-17T10:52:26-MST [INFO] - Creating table INFO_WEEKLY_TOP_SALES_RANK_002
+2021-05-17T10:52:26-MST [INFO] - Executing etc/sql/INFO_WEEKLY_TOP_SALES_RANK_002_load.sql
+2021-05-17T10:52:29-MST [INFO] - Creating table INFO_SALES_LAST_6_MONTHS_FILTERED_001
+2021-05-17T10:52:29-MST [INFO] - Creating table INFO_WEEKLY_TOP_SALES_RANK_001
+2021-05-17T10:52:29-MST [INFO] - Executing INFO_WEEKLY_TOP_SALES_RANK_001 and exporting to svc/static/WEEKLY_TOP_SALES_RANK_001.json
+2021-05-17T10:52:33-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_001.html
+2021-05-17T10:52:33-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_002.html
+2021-05-17T10:52:33-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_003.html
+2021-05-17T10:52:33-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_004.html
+2021-05-17T10:52:33-MST [INFO] - record count = 11 svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T10:52:33-MST [INFO] - record count = 11 svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T10:52:33-MST [INFO] - record count = 541910 records in SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T10:52:33-MST [INFO] - record count = 536642 records in RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.sales.db
+2021-05-17T10:52:33-MST [INFO] - record count = 100 records in INFO_SALES_LAST_6_MONTHS_FILTERED_001.sales.db
+2021-05-17T10:52:33-MST [INFO] - record count = 536642 records in SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.sales.db
+2021-05-17T10:52:34-MST [INFO] - record count = 531224 records in BSAT_INVOICES_001.sales.db
+2021-05-17T10:52:34-MST [INFO] - record count = 3843 records in BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.sales.db
+2021-05-17T10:52:34-MST [INFO] - record count = 3958 records in BHUB_STOCK_CODES_001.sales.db
+2021-05-17T10:52:34-MST [INFO] - record count = 25900 records in BHUB_INVOICE_CODES_001.sales.db
+2021-05-17T10:52:34-MST [INFO] - record count = 270 records in INFO_WEEKLY_TOP_SALES_RANK_002.sales.db
+2021-05-17T10:52:34-MST [INFO] - Executing documentation.
+/Users/brianmcmillan/.pyenv/shims/eralchemy -i sqlite:////Users/brianmcmillan/projects/sales/svc/db/sales.db -o /Users/brianmcmillan/projects/sales/svc/doc/er_all_tables.gv
+Traceback (most recent call last):
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1344, in _get_prog
+    runprog = self._which(prog)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1800, in _which
+    raise ValueError(f"No prog {name} in path.")
+ValueError: No prog dot in path.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/bin/eralchemy", line 8, in <module>
+    sys.exit(cli())
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/eralchemy/main.py", line 31, in cli
+    render_er(
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/eralchemy/main.py", line 236, in render_er
+    intermediary_to_output(tables, relationships, output)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/eralchemy/main.py", line 75, in intermediary_to_schema
+    graph.draw(path=output, prog='dot', format=extension)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1596, in draw
+    data = self._run_prog(prog, args)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1360, in _run_prog
+    runprog = r'"%s"' % self._get_prog(prog)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1346, in _get_prog
+    raise ValueError(f"Program {prog} not found in path.")
+ValueError: Program dot not found in path.
+make: *** [documentation] Error 1
+2021-05-17T11:00:00-MST [INFO] - Splitting svc/load/online_retail_II_-_Year_2010-2011.csv into svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011__###
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_000.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_001.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_002.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_003.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_004.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_005.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_006.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_007.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_008.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_009.csv
+   41911 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_010.csv
+  541911 total
+2021-05-17T11:00:00-MST [INFO] - Loading data from svc/load/online_retail_II_-_Year_2010-2011.csv into SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T11:00:19-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered.sql and exporting to svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T11:00:20-MST [INFO] - Creating table RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T11:00:20-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered_002.sql and exporting to svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T11:00:21-MST [INFO] - Creating table SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:00:21-MST [INFO] - Creating table SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T11:00:21-MST [INFO] - Loading csv files from /Users/brianmcmillan/projects/sales/svc/load/online_retail_II and loading into svc/load/online_retail_II/load.csv
+2021-05-17T11:00:21-MST [INFO] - no files to process in svc/load/online_retail_II/
+sort: No such file or directory
+wc: svc/load/online_retail_II/load.csv: open: No such file or directory
+2021-05-17T11:00:21-MST [INFO] - Extracting data from svc/load/online_retail_II/load.csv and loading into load/SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:00:21-MST [WARNING] - svc/load/online_retail_II/load.csv file does not exist
+0 records in SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:00:21-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_load.sql
+
+2021-05-17T11:00:21-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_clean.sql
+
+2021-05-17T11:00:21-MST [INFO] - Creating table BSAT_INVOICES_001
+2021-05-17T11:00:21-MST [INFO] - Executing etc/sql/BSAT_INVOICES_001_load.sql
+
+2021-05-17T11:00:40-MST [INFO] - Creating table BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001
+2021-05-17T11:00:40-MST [INFO] - Executing etc/sql/BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001_load.sql
+
+2021-05-17T11:07:56-MST [INFO] - Creating table BHUB_STOCK_CODES_001
+2021-05-17T11:07:56-MST [INFO] - Executing etc/sql/BHUB_STOCK_CODES_001_load.sql
+2021-05-17T11:07:57-MST [INFO] - Creating table BHUB_INVOICE_CODES_001
+2021-05-17T11:07:57-MST [INFO] - Executing etc/sql/BHUB_INVOICE_CODES_001_load.sql
+2021-05-17T11:07:59-MST [INFO] - Creating table INFO_WEEKLY_TOP_SALES_RANK_002
+2021-05-17T11:07:59-MST [INFO] - Executing etc/sql/INFO_WEEKLY_TOP_SALES_RANK_002_load.sql
+2021-05-17T11:08:03-MST [INFO] - Creating table INFO_SALES_LAST_6_MONTHS_FILTERED_001
+2021-05-17T11:08:03-MST [INFO] - Creating table INFO_WEEKLY_TOP_SALES_RANK_001
+2021-05-17T11:08:03-MST [INFO] - Executing INFO_WEEKLY_TOP_SALES_RANK_001 and exporting to svc/static/WEEKLY_TOP_SALES_RANK_001.json
+2021-05-17T11:08:10-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_001.html
+2021-05-17T11:08:10-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_002.html
+2021-05-17T11:08:10-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_003.html
+2021-05-17T11:08:10-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_004.html
+2021-05-17T11:08:10-MST [INFO] - record count = 11 svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T11:08:10-MST [INFO] - record count = 11 svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T11:08:10-MST [INFO] - record count = 541910 records in SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T11:08:10-MST [INFO] - record count = 536642 records in RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.sales.db
+2021-05-17T11:08:10-MST [INFO] - record count = 100 records in INFO_SALES_LAST_6_MONTHS_FILTERED_001.sales.db
+2021-05-17T11:08:10-MST [INFO] - record count = 536642 records in SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.sales.db
+2021-05-17T11:08:10-MST [INFO] - record count = 531224 records in BSAT_INVOICES_001.sales.db
+2021-05-17T11:08:10-MST [INFO] - record count = 3843 records in BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.sales.db
+2021-05-17T11:08:10-MST [INFO] - record count = 3958 records in BHUB_STOCK_CODES_001.sales.db
+2021-05-17T11:08:10-MST [INFO] - record count = 25900 records in BHUB_INVOICE_CODES_001.sales.db
+2021-05-17T11:08:10-MST [INFO] - record count = 270 records in INFO_WEEKLY_TOP_SALES_RANK_002.sales.db
+2021-05-17T11:08:10-MST [INFO] - Executing documentation.
+/Users/brianmcmillan/.pyenv/shims/eralchemy -i sqlite:////Users/brianmcmillan/projects/sales/svc/db/sales.db -o /Users/brianmcmillan/projects/sales/svc/doc/er_all_tables.gv
+Traceback (most recent call last):
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1344, in _get_prog
+    runprog = self._which(prog)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1800, in _which
+    raise ValueError(f"No prog {name} in path.")
+ValueError: No prog dot in path.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/bin/eralchemy", line 8, in <module>
+    sys.exit(cli())
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/eralchemy/main.py", line 31, in cli
+    render_er(
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/eralchemy/main.py", line 236, in render_er
+    intermediary_to_output(tables, relationships, output)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/eralchemy/main.py", line 75, in intermediary_to_schema
+    graph.draw(path=output, prog='dot', format=extension)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1596, in draw
+    data = self._run_prog(prog, args)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1360, in _run_prog
+    runprog = r'"%s"' % self._get_prog(prog)
+  File "/Users/brianmcmillan/.pyenv/versions/3.9.0/lib/python3.9/site-packages/pygraphviz/agraph.py", line 1346, in _get_prog
+    raise ValueError(f"Program {prog} not found in path.")
+ValueError: Program dot not found in path.
+make: *** [documentation] Error 1
+2021-05-17T11:15:00-MST [INFO] - Splitting svc/load/online_retail_II_-_Year_2010-2011.csv into svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011__###
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_000.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_001.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_002.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_003.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_004.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_005.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_006.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_007.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_008.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_009.csv
+   41911 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_010.csv
+  541911 total
+2021-05-17T11:15:00-MST [INFO] - Loading data from svc/load/online_retail_II_-_Year_2010-2011.csv into SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T11:15:18-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered.sql and exporting to svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T11:15:19-MST [INFO] - Creating table RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T11:15:19-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered_002.sql and exporting to svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T11:15:20-MST [INFO] - Creating table SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:15:20-MST [INFO] - Creating table SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T11:15:20-MST [INFO] - Loading csv files from /Users/brianmcmillan/projects/sales/svc/load/online_retail_II and loading into svc/load/online_retail_II/load.csv
+2021-05-17T11:15:20-MST [INFO] - no files to process in svc/load/online_retail_II/
+sort: No such file or directory
+wc: svc/load/online_retail_II/load.csv: open: No such file or directory
+2021-05-17T11:15:20-MST [INFO] - Extracting data from svc/load/online_retail_II/load.csv and loading into load/SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:15:20-MST [WARNING] - svc/load/online_retail_II/load.csv file does not exist
+0 records in SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:15:20-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_load.sql
+
+2021-05-17T11:15:20-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_clean.sql
+
+2021-05-17T11:15:20-MST [INFO] - Creating table BSAT_INVOICES_001
+2021-05-17T11:15:20-MST [INFO] - Executing etc/sql/BSAT_INVOICES_001_load.sql
+
+2021-05-17T11:15:40-MST [INFO] - Creating table BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001
+2021-05-17T11:15:40-MST [INFO] - Executing etc/sql/BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001_load.sql
+
+2021-05-17T11:22:49-MST [INFO] - Creating table BHUB_STOCK_CODES_001
+2021-05-17T11:22:49-MST [INFO] - Executing etc/sql/BHUB_STOCK_CODES_001_load.sql
+2021-05-17T11:22:50-MST [INFO] - Creating table BHUB_INVOICE_CODES_001
+2021-05-17T11:22:50-MST [INFO] - Executing etc/sql/BHUB_INVOICE_CODES_001_load.sql
+2021-05-17T11:22:51-MST [INFO] - Creating table INFO_WEEKLY_TOP_SALES_RANK_002
+2021-05-17T11:22:51-MST [INFO] - Executing etc/sql/INFO_WEEKLY_TOP_SALES_RANK_002_load.sql
+2021-05-17T11:22:56-MST [INFO] - Creating table INFO_SALES_LAST_6_MONTHS_FILTERED_001
+2021-05-17T11:22:56-MST [INFO] - Creating table INFO_WEEKLY_TOP_SALES_RANK_001
+2021-05-17T11:22:56-MST [INFO] - Executing INFO_WEEKLY_TOP_SALES_RANK_001 and exporting to svc/static/WEEKLY_TOP_SALES_RANK_001.json
+2021-05-17T11:23:03-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_001.html
+2021-05-17T11:23:03-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_002.html
+2021-05-17T11:23:03-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_003.html
+2021-05-17T11:23:03-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_004.html
+2021-05-17T11:23:03-MST [INFO] - record count = 11 svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T11:23:03-MST [INFO] - record count = 11 svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T11:23:03-MST [INFO] - record count = 541910 records in SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T11:23:03-MST [INFO] - record count = 536642 records in RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.sales.db
+2021-05-17T11:23:03-MST [INFO] - record count = 100 records in INFO_SALES_LAST_6_MONTHS_FILTERED_001.sales.db
+2021-05-17T11:23:03-MST [INFO] - record count = 536642 records in SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.sales.db
+2021-05-17T11:23:03-MST [INFO] - record count = 531224 records in BSAT_INVOICES_001.sales.db
+2021-05-17T11:23:03-MST [INFO] - record count = 3843 records in BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.sales.db
+2021-05-17T11:23:03-MST [INFO] - record count = 3958 records in BHUB_STOCK_CODES_001.sales.db
+2021-05-17T11:23:04-MST [INFO] - record count = 25900 records in BHUB_INVOICE_CODES_001.sales.db
+2021-05-17T11:23:04-MST [INFO] - record count = 270 records in INFO_WEEKLY_TOP_SALES_RANK_002.sales.db
+2021-05-17T11:23:04-MST [INFO] - Executing documentation.
+#/Users/brianmcmillan/.pyenv/shims/eralchemy -i sqlite:////Users/brianmcmillan/projects/sales/svc/db/sales.db -o /Users/brianmcmillan/projects/sales/svc/doc/er_all_tables.gv
+#/Users/brianmcmillan/.pyenv/shims/eralchemy -i sqlite:////Users/brianmcmillan/projects/sales/svc/db/sales.db -o /Users/brianmcmillan/projects/sales/svc/doc/er_all_tables.er
+2021-05-17T11:30:00-MST [INFO] - Splitting svc/load/online_retail_II_-_Year_2010-2011.csv into svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011__###
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_000.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_001.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_002.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_003.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_004.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_005.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_006.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_007.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_008.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_009.csv
+   41911 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_010.csv
+  541911 total
+2021-05-17T11:30:01-MST [INFO] - Loading data from svc/load/online_retail_II_-_Year_2010-2011.csv into SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T11:30:24-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered.sql and exporting to svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T11:30:26-MST [INFO] - Creating table RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T11:30:26-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered_002.sql and exporting to svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T11:30:27-MST [INFO] - Creating table SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:30:27-MST [INFO] - Creating table SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T11:30:27-MST [INFO] - Loading csv files from /Users/brianmcmillan/projects/sales/svc/load/online_retail_II and loading into svc/load/online_retail_II/load.csv
+2021-05-17T11:30:27-MST [INFO] - no files to process in svc/load/online_retail_II/
+sort: No such file or directory
+wc: svc/load/online_retail_II/load.csv: open: No such file or directory
+2021-05-17T11:30:27-MST [INFO] - Extracting data from svc/load/online_retail_II/load.csv and loading into load/SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:30:27-MST [WARNING] - svc/load/online_retail_II/load.csv file does not exist
+0 records in SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:30:27-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_load.sql
+
+2021-05-17T11:30:27-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_clean.sql
+
+2021-05-17T11:30:27-MST [INFO] - Creating table BSAT_INVOICES_001
+2021-05-17T11:30:27-MST [INFO] - Executing etc/sql/BSAT_INVOICES_001_load.sql
+
+2021-05-17T11:30:53-MST [INFO] - Creating table BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001
+2021-05-17T11:30:53-MST [INFO] - Executing etc/sql/BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001_load.sql
+
+2021-05-17T11:38:01-MST [INFO] - Creating table BHUB_STOCK_CODES_001
+2021-05-17T11:38:01-MST [INFO] - Executing etc/sql/BHUB_STOCK_CODES_001_load.sql
+2021-05-17T11:38:02-MST [INFO] - Creating table BHUB_INVOICE_CODES_001
+2021-05-17T11:38:02-MST [INFO] - Executing etc/sql/BHUB_INVOICE_CODES_001_load.sql
+2021-05-17T11:38:04-MST [INFO] - Creating table INFO_WEEKLY_TOP_SALES_RANK_002
+2021-05-17T11:38:04-MST [INFO] - Executing etc/sql/INFO_WEEKLY_TOP_SALES_RANK_002_load.sql
+2021-05-17T11:38:08-MST [INFO] - Creating table INFO_SALES_LAST_6_MONTHS_FILTERED_001
+2021-05-17T11:38:08-MST [INFO] - Creating table INFO_WEEKLY_TOP_SALES_RANK_001
+2021-05-17T11:38:09-MST [INFO] - Executing INFO_WEEKLY_TOP_SALES_RANK_001 and exporting to svc/static/WEEKLY_TOP_SALES_RANK_001.json
+2021-05-17T11:38:15-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_001.html
+2021-05-17T11:38:15-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_002.html
+2021-05-17T11:38:15-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_003.html
+2021-05-17T11:38:15-MST [INFO] - Executing svc/static/WEEKLY_TOP_SALES_RANK_004.html
+2021-05-17T11:38:15-MST [INFO] - record count = 11 svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T11:38:15-MST [INFO] - record count = 11 svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T11:38:15-MST [INFO] - record count = 541910 records in SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T11:38:15-MST [INFO] - record count = 536642 records in RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.sales.db
+2021-05-17T11:38:16-MST [INFO] - record count = 100 records in INFO_SALES_LAST_6_MONTHS_FILTERED_001.sales.db
+2021-05-17T11:38:16-MST [INFO] - record count = 536642 records in SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.sales.db
+2021-05-17T11:38:16-MST [INFO] - record count = 531224 records in BSAT_INVOICES_001.sales.db
+2021-05-17T11:38:16-MST [INFO] - record count = 3843 records in BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.sales.db
+2021-05-17T11:38:16-MST [INFO] - record count = 3958 records in BHUB_STOCK_CODES_001.sales.db
+2021-05-17T11:38:16-MST [INFO] - record count = 25900 records in BHUB_INVOICE_CODES_001.sales.db
+2021-05-17T11:38:16-MST [INFO] - record count = 270 records in INFO_WEEKLY_TOP_SALES_RANK_002.sales.db
+2021-05-17T11:38:16-MST [INFO] - Executing documentation.
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.provider_code: (1/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    536642: svc/load/online_retail_II_-_Year_2010-2011.csv
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.load_dts: (2/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    536642: 2021-05-13T16:57:56-MST
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.invoice: (3/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 25900
+
+  Most common:
+    1114: 573585
+    749: 581219
+    731: 581492
+    721: 580729
+    705: 558475
+    687: 579777
+    676: 581217
+    675: 537434
+    662: 580730
+    652: 538071
+
+  Least common:
+    1: C581128
+    1: C581162
+    1: C581323
+    1: C581384
+    1: C581393
+    1: C581463
+    1: C581470
+    1: C581484
+    1: C581499
+    1: C581568
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.stock_code: (4/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 4070
+
+  Most common:
+    2301: 85123A
+    2192: 22423
+    2156: 85099B
+    1720: 47566
+    1626: 20725
+    1489: 84879
+    1469: 22720
+    1468: 22197
+    1367: 21212
+    1328: 22383
+
+  Least common:
+    1: DCGS0055
+    1: DCGS0057
+    1: DCGS0066P
+    1: DCGS0067
+    1: DCGS0068
+    1: DCGS0071
+    1: DCGS0072
+    1: DCGS0073
+    1: DCGS0074
+    1: m
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.description: (5/93)
+
+  Total rows: 536642
+  Null rows: 1454
+  Blank rows: 0
+
+  Distinct values: 4223
+
+  Most common:
+    2357: WHITE HANGING HEART T-LIGHT HOLDER
+    2189: REGENCY CAKESTAND 3 TIER
+    2156: JUMBO BAG RED RETROSPOT
+    1720: PARTY BUNTING
+    1625: LUNCH BAG RED RETROSPOT
+    1488: ASSORTED COLOUR BIRD ORNAMENT
+    1465: SET OF 3 CAKE TINS PANTRY DESIGN 
+    1454: None
+    1367: PACK OF 72 RETROSPOT CAKE CASES
+    1323: LUNCH BAG  BLACK SKULL.
+
+  Least common:
+    1: wrong code?
+    1: wrongly coded 23343
+    1: wrongly coded-23343
+    1: wrongly marked
+    1: wrongly marked 23343
+    1: wrongly marked carton 22804
+    1: wrongly marked. 23343 in box
+    1: wrongly sold (22719) barcode
+    1: wrongly sold as sets
+    1: wrongly sold sets
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.quantity: (6/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 722
+
+  Most common:
+    144496: 1
+    81245: 2
+    60858: 12
+    40656: 6
+    38393: 4
+    36990: 3
+    23961: 24
+    22235: 10
+    13079: 8
+    11707: 5
+
+  Least common:
+    1: 3100
+    1: 3186
+    1: 3906
+    1: 4000
+    1: 4300
+    1: 4800
+    1: 5568
+    1: 12540
+    1: 74215
+    1: 80995
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.invoice_date: (7/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 23260
+
+  Most common:
+    1114: 2011-10-31T14:41:00
+    749: 2011-12-08T09:28:00
+    731: 2011-12-09T10:03:00
+    721: 2011-12-05T17:24:00
+    705: 2011-06-29T15:58:00
+    687: 2011-11-30T15:13:00
+    676: 2011-12-08T09:20:00
+    675: 2010-12-06T16:57:00
+    662: 2011-12-05T17:28:00
+    652: 2010-12-09T14:09:00
+
+  Least common:
+    1: 2011-12-08T18:46:00
+    1: 2011-12-08T18:56:00
+    1: 2011-12-09T09:00:00
+    1: 2011-12-09T09:15:00
+    1: 2011-12-09T09:27:00
+    1: 2011-12-09T09:44:00
+    1: 2011-12-09T10:02:00
+    1: 2011-12-09T10:28:00
+    1: 2011-12-09T11:50:00
+    1: 2011-12-09T11:57:00
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.price: (8/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1630
+
+  Most common:
+    49750: 1.25
+    37627: 1.65
+    28182: 0.85
+    27350: 2.95
+    24277: 0.42
+    18827: 4.95
+    18357: 3.75
+    17397: 2.1
+    17091: 2.46
+    16894: 0.83
+
+  Least common:
+    1: 7006.83
+    1: 7427.97
+    1: 8286.22
+    1: 11062.06
+    1: 11586.5
+    1: 13474.79
+    1: 16453.71
+    1: 16888.02
+    1: 17836.46
+    1: 38970
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.customer_id: (9/93)
+
+  Total rows: 536642
+  Null rows: 135037
+  Blank rows: 0
+
+  Distinct values: 4372
+
+  Most common:
+    135037: None
+    7812: 17841
+    5898: 14911
+    5128: 14096
+    4459: 12748
+    2759: 14606
+    2478: 15311
+    2085: 14646
+    1853: 13089
+    1667: 13263
+
+  Least common:
+    1: 17925
+    1: 17948
+    1: 17956
+    1: 17986
+    1: 18068
+    1: 18113
+    1: 18141
+    1: 18174
+    1: 18184
+    1: 18233
+
+RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001.country: (10/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 38
+
+  Most common:
+    490300: United Kingdom
+    9480: Germany
+    8542: France
+    8184: EIRE
+    2528: Spain
+    2371: Netherlands
+    2069: Belgium
+    1994: Switzerland
+    1510: Portugal
+    1258: Australia
+
+  Least common:
+    10: Saudi Arabia
+    19: Bahrain
+    30: Czech Republic
+    32: Brazil
+    35: Lithuania
+    45: Lebanon
+    58: RSA
+    61: European Community
+    68: United Arab Emirates
+    127: Malta
+
+SRC_online_retail_II_-_Year_2010-2011_002.provider_code: (11/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.load_dts: (12/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.Invoice: (13/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.StockCode: (14/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.Description: (15/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.Quantity: (16/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.InvoiceDate: (17/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.Price: (18/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.Customer ID: (19/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SRC_online_retail_II_-_Year_2010-2011_002.Country: (20/93)
+
+  Total rows: 0
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 0
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.provider_code: (21/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    536642: svc/load/online_retail_II_-_Year_2010-2011.csv
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.hash_diff: (22/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 536642
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.load_dts: (23/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    536642: 2021-05-13T16:57:56-MST
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.insert_dts: (24/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    536642: 2021-05-14T00:00:43.818Z
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.invoice: (25/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 25900
+
+  Most common:
+    1114: 573585
+    749: 581219
+    731: 581492
+    721: 580729
+    705: 558475
+    687: 579777
+    676: 581217
+    675: 537434
+    662: 580730
+    652: 538071
+
+  Least common:
+    1: C581128
+    1: C581162
+    1: C581323
+    1: C581384
+    1: C581393
+    1: C581463
+    1: C581470
+    1: C581484
+    1: C581499
+    1: C581568
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.stock_code: (26/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 4070
+
+  Most common:
+    2301: 85123A
+    2192: 22423
+    2156: 85099B
+    1720: 47566
+    1626: 20725
+    1489: 84879
+    1469: 22720
+    1468: 22197
+    1367: 21212
+    1328: 22383
+
+  Least common:
+    1: DCGS0055
+    1: DCGS0057
+    1: DCGS0066P
+    1: DCGS0067
+    1: DCGS0068
+    1: DCGS0071
+    1: DCGS0072
+    1: DCGS0073
+    1: DCGS0074
+    1: m
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.description: (27/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 1454
+
+  Distinct values: 4224
+
+  Most common:
+    2357: WHITE HANGING HEART T-LIGHT HOLDER
+    2189: REGENCY CAKESTAND 3 TIER
+    2156: JUMBO BAG RED RETROSPOT
+    1720: PARTY BUNTING
+    1625: LUNCH BAG RED RETROSPOT
+    1488: ASSORTED COLOUR BIRD ORNAMENT
+    1465: SET OF 3 CAKE TINS PANTRY DESIGN 
+    1454: 
+    1367: PACK OF 72 RETROSPOT CAKE CASES
+    1323: LUNCH BAG  BLACK SKULL.
+
+  Least common:
+    1: wrong code?
+    1: wrongly coded 23343
+    1: wrongly coded-23343
+    1: wrongly marked
+    1: wrongly marked 23343
+    1: wrongly marked carton 22804
+    1: wrongly marked. 23343 in box
+    1: wrongly sold (22719) barcode
+    1: wrongly sold as sets
+    1: wrongly sold sets
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.quantity: (28/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 722
+
+  Most common:
+    144496: 1
+    81245: 2
+    60858: 12
+    40656: 6
+    38393: 4
+    36990: 3
+    23961: 24
+    22235: 10
+    13079: 8
+    11707: 5
+
+  Least common:
+    1: 3100
+    1: 3186
+    1: 3906
+    1: 4000
+    1: 4300
+    1: 4800
+    1: 5568
+    1: 12540
+    1: 74215
+    1: 80995
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.invoice_date: (29/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 23260
+
+  Most common:
+    1114: 2011-10-31T14:41:00
+    749: 2011-12-08T09:28:00
+    731: 2011-12-09T10:03:00
+    721: 2011-12-05T17:24:00
+    705: 2011-06-29T15:58:00
+    687: 2011-11-30T15:13:00
+    676: 2011-12-08T09:20:00
+    675: 2010-12-06T16:57:00
+    662: 2011-12-05T17:28:00
+    652: 2010-12-09T14:09:00
+
+  Least common:
+    1: 2011-12-08T18:46:00
+    1: 2011-12-08T18:56:00
+    1: 2011-12-09T09:00:00
+    1: 2011-12-09T09:15:00
+    1: 2011-12-09T09:27:00
+    1: 2011-12-09T09:44:00
+    1: 2011-12-09T10:02:00
+    1: 2011-12-09T10:28:00
+    1: 2011-12-09T11:50:00
+    1: 2011-12-09T11:57:00
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.price: (30/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1630
+
+  Most common:
+    49750: 1.25
+    37627: 1.65
+    28182: 0.85
+    27350: 2.95
+    24277: 0.42
+    18827: 4.95
+    18357: 3.75
+    17397: 2.1
+    17091: 2.46
+    16894: 0.83
+
+  Least common:
+    1: 7006.83
+    1: 7427.97
+    1: 8286.22
+    1: 11062.06
+    1: 11586.5
+    1: 13474.79
+    1: 16453.71
+    1: 16888.02
+    1: 17836.46
+    1: 38970
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.customer_id: (31/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 135037
+
+  Distinct values: 4373
+
+  Most common:
+    135037: 
+    7812: 17841
+    5898: 14911
+    5128: 14096
+    4459: 12748
+    2759: 14606
+    2478: 15311
+    2085: 14646
+    1853: 13089
+    1667: 13263
+
+  Least common:
+    1: 17925
+    1: 17948
+    1: 17956
+    1: 17986
+    1: 18068
+    1: 18113
+    1: 18141
+    1: 18174
+    1: 18184
+    1: 18233
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.country: (32/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 38
+
+  Most common:
+    490300: United Kingdom
+    9480: Germany
+    8542: France
+    8184: EIRE
+    2528: Spain
+    2371: Netherlands
+    2069: Belgium
+    1994: Switzerland
+    1510: Portugal
+    1258: Australia
+
+  Least common:
+    10: Saudi Arabia
+    19: Bahrain
+    30: Czech Republic
+    32: Brazil
+    35: Lithuania
+    45: Lebanon
+    58: RSA
+    61: European Community
+    68: United Arab Emirates
+    127: Malta
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.invoice_code_hkey: (33/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 25900
+
+  Most common:
+    1114: d59e2fb3290d01aeeb3ec938ffbfe5ed4b1e0a1a
+    749: 09ee9d786d5df1d3ce29b989cbd22eff2d12e7aa
+    731: dd67a9d1339fe68d2a211e5a3909e9b95380ea5e
+    721: 60200eba5ed6bcb310a250087ddf2831abcf6136
+    705: d5f6a3f368e9909b7d076627c9f6ed34cb60c826
+    687: dfcd375bd18049f56cba8ab17f7a7f64697847b1
+    676: 7946b7b95db6d253a1639b49965a99825de5e72f
+    675: 3a02fa9976946c123ea45515404de966ca93155a
+    662: 09a87e1ee438a679d35c6e95fb61bdbe692873c1
+    652: 17f29eeb89fca8771a7d50cb6128c353635f156a
+
+  Least common:
+    1: ffbd1702071c6f638a847320fcb02be22fb00b75
+    1: ffc303a4fb279c099ca7999865565807ca8be309
+    1: ffc4fc79b51138f589a93f25ea9f5e5c9af1c8c4
+    1: ffcc2e51f2b10b9ae707f362a29af80abcde02b2
+    1: ffd042af6da71816d0d1513900bf97bf5f84e554
+    1: ffd917ce0e916a259e0a07ccdfa47627d6499e9d
+    1: ffdf5f321992cc7bd48ebc2682826aa0e756eb6d
+    1: ffe66bca7bcc1f2b607cad30134e75900d2c4f3d
+    1: ffe83277e0cf92b47a23177373b428d1fc4d854d
+    1: fff901bde3788697fa99f546c642392d4b785210
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.stock_code_hkey: (34/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 3958
+
+  Most common:
+    2368: 2664de1a04eae7822e9a2de5bb537f269a604e91
+    2192: 19f30ecc8dbfd05d5c365c96c8434d66d0b5c603
+    2156: 862465f3fc46d774475b0f9374de32dfb9658b80
+    1720: b83271a338d582a5d8b71f5dc2d11e49375f574d
+    1626: 61ce856087d06ced37a9b0fd817181a320e6b9f2
+    1489: 1d410df7f83c9f5827d8ead2863a7876d6e415da
+    1469: a3f1da7774eb47e58310cd44231bc5bd72a4eee0
+    1468: 421c6ea74d04f3fd473583874cee71baeec5d38c
+    1367: af5e04702825017510b0f7007d4725b0862c0a98
+    1328: 7193bab226e36f8da3287259aa4fb10827978b5f
+
+  Least common:
+    1: f5f8d15e9ff89a4b10048d20350799492206b4b0
+    1: f6765f1a9f51e27f52939420e5d1f5e01685aa52
+    1: f9722178b45fa3b55a1583ea401ec64b8c8c2f27
+    1: f9cf3a2fde2482e6665ccae1300a9240532af0c1
+    1: fa4695aee1f89fc2cd1ff6cc14f5459ab4d2fcf7
+    1: fb1f1c3055bdc53aad7807424dd9d0473a626642
+    1: fca6c40582299e0b3281578f5dff9558e74c25d0
+    1: fd9c2cb5cc20aecb6152af2872c5dfea58ea85ff
+    1: fdfa9a44dcca0cb5ca43c94d7c48250104b5e2f6
+    1: fe85b5bfb62dd38d722066d4520324f8a36b80ec
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.customer_code_hkey: (35/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 4373
+
+  Most common:
+    135037: da39a3ee5e6b4b0d3255bfef95601890afd80709
+    7812: 89944912cb84d86b23810c9723d925e5b83a84be
+    5898: b70cc42d48ff363c2551cfec1382e9fce4a2cc26
+    5128: c552646caf059dd2b3181ecadb4e032d5cb08571
+    4459: 02ff7a796b3e1813d0f252a42bbdc8486258671c
+    2759: 22859089486ff4577792b2c812ce8d2755a90624
+    2478: 6a38bd2ce83b904db1c5b13c72f118d61ac98e4d
+    2085: 4e75c2c3f5551b6550f8d596d3b8d2c5a1c4df83
+    1853: 5be38579f84eb09ace7bcb6aa4a70d0e80be5c1a
+    1667: a3e5ea52b41296cc774cfaba7c00450734a96916
+
+  Least common:
+    1: d4cdfddb341a7e0c7a3c5e80b6458ec14c981fb7
+    1: d5fcf0cbb2d4742217bec8b4d9ffa318661dd56e
+    1: d75de97e68f5c95cc4ee2e13dbf4bbc6210f2b68
+    1: d7d88a81579e075bcac342ec560f2dc3841f4887
+    1: da85f773feb394bb022af48d6f8baa50709c44a9
+    1: de64667dd2c2ceeaf4af0c8dfe4cf08d45ccdab3
+    1: e907d4e786b69bc80a155f49dec45d4c699078bb
+    1: e9be52bfc3ff8544b09c9e0063132975a80db44a
+    1: f86e536f4baaf8787489166682de34f11a395f5f
+    1: ffb90af3983e580d07eb69b969a65b31e085bc16
+
+SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001.country_code_hkey: (36/93)
+
+  Total rows: 536642
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 38
+
+  Most common:
+    490300: 247ee4c201b5936f6dffe2b7b368fb518386bfcc
+    9480: 50fa98722e2d7a6ac87084bfdecdc73bd8a3b0f8
+    8542: 85366acfb2d528adaac46564ceb84f59e801344d
+    8184: 0b010c83d4692dc185c39ad2ff79b8f8b87bbfa9
+    2528: 6e6d89b3f36861d7dcf92fb4208312d60a5b180b
+    2371: 7850d12ea45d65e283bb536cbc7222059b48448a
+    2069: 42287d67c3ad3ff94232045a2af58884d40ab094
+    1994: ce2de031de9cd774b8664947ec4270d4ca13df78
+    1510: 459588b894012690c5f5f490757c3a54d65fd207
+    1258: 452d8a23e30789dc2e17ee567f846fca49080008
+
+  Least common:
+    10: 4fa5dbd0adc10a8d5c3cccf2b866ae874ad97f43
+    19: 6d653766979861aa060ef203fb3952bfc37ba6b0
+    30: 432538b5d14acb91795b9f9f9bb9d6d4dbae219b
+    32: 653b4e6d1258e62abd4015f3b8aeecae0d18981b
+    35: aba68576228532164b2a6b237cb69709cdc6004b
+    45: 14b2d53f66f7f09227cbff1cd0d6d45dd68f83aa
+    58: 56d91d770f6fd64e188020f40d1d915be6e046dc
+    61: a60a8213ee21a348a7b155301dbdde1951c4310b
+    68: 8735b0a0f051fd7ee4b25751f8acf75a24fd46ef
+    127: 973d770884b917bd89ba4f9271e260afdca09a04
+
+BSAT_INVOICES_001.invoice_hkey: (37/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 531224
+
+BSAT_INVOICES_001.provider_code: (38/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    531224: sales/etc/sql/BSAT_INVOICES_001_load.sql
+
+BSAT_INVOICES_001.load_dts: (39/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    531224: 2021-05-13T16:57:56-MST
+
+BSAT_INVOICES_001.insert_dts: (40/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    531224: 2021-05-17T18:30:29.225Z
+
+BSAT_INVOICES_001.invoice_code: (41/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 25900
+
+  Most common:
+    1108: 573585
+    749: 581219
+    731: 581492
+    721: 580729
+    704: 558475
+    687: 579777
+    676: 581217
+    674: 537434
+    661: 580730
+    650: 580367
+
+  Least common:
+    1: 581483
+    1: 581484
+    1: 581487
+    1: 581491
+    1: 581499
+    1: 581566
+    1: 581568
+    1: A563185
+    1: A563186
+    1: A563187
+
+BSAT_INVOICES_001.stock_code: (42/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 3958
+
+  Most common:
+    2313: 85123A
+    2172: 22423
+    2135: 85099B
+    1706: 47566
+    1608: 20725
+    1468: 84879
+    1462: 22720
+    1442: 22197
+    1334: 21212
+    1306: 22383
+
+  Least common:
+    1: DCGS0004
+    1: DCGS0055
+    1: DCGS0057
+    1: DCGS0066P
+    1: DCGS0067
+    1: DCGS0068
+    1: DCGS0071
+    1: DCGS0072
+    1: DCGS0073
+    1: DCGS0074
+
+BSAT_INVOICES_001.invoice_date: (43/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 350
+
+  Most common:
+    5122: 2011-12-06
+    4631: 2011-11-16
+    4589: 2011-12-08
+    3975: 2011-11-29
+    3813: 2011-11-22
+    3749: 2011-11-11
+    3726: 2010-12-06
+    3514: 2011-11-23
+    3472: 2011-11-24
+    3447: 2011-11-30
+
+  Least common:
+    1: 2011-01-29
+    2: 2011-02-19
+    2: 2011-06-18
+    2: 2011-09-10
+    3: 2010-12-24
+    3: 2011-04-02
+    7: 2011-01-15
+    7: 2011-02-05
+    10: 2011-03-05
+    15: 2011-03-26
+
+BSAT_INVOICES_001.customer_code: (44/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 134542
+
+  Distinct values: 4373
+
+  Most common:
+    134542: 
+    7613: 17841
+    5898: 14911
+    5097: 14096
+    4331: 12748
+    2742: 14606
+    2469: 15311
+    2085: 14646
+    1851: 13089
+    1655: 13263
+
+  Least common:
+    1: 17925
+    1: 17948
+    1: 17956
+    1: 17986
+    1: 18068
+    1: 18113
+    1: 18141
+    1: 18174
+    1: 18184
+    1: 18233
+
+BSAT_INVOICES_001.price: (45/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1570
+
+  Most common:
+    48997: 1.25
+    37066: 1.65
+    27744: 0.85
+    27038: 2.95
+    24038: 0.42
+    18684: 4.95
+    18191: 3.75
+    17159: 2.1
+    17069: 2.46
+    16791: 0.83
+
+  Least common:
+    1: 7006.83
+    1: 7427.97
+    1: 8286.22
+    1: 11062.06
+    1: 11586.5
+    1: 13474.79
+    1: 16453.71
+    1: 16888.02
+    1: 17836.46
+    1: 38970
+
+BSAT_INVOICES_001.quantity: (46/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 722
+
+  Most common:
+    140864: 1
+    80344: 2
+    60795: 12
+    40530: 6
+    38259: 4
+    36746: 3
+    23935: 24
+    22205: 10
+    13059: 8
+    11644: 5
+
+  Least common:
+    1: 3100
+    1: 3186
+    1: 3906
+    1: 4000
+    1: 4300
+    1: 4800
+    1: 5568
+    1: 12540
+    1: 74215
+    1: 80995
+
+BSAT_INVOICES_001.invoice_code_hkey: (47/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 25900
+
+  Most common:
+    1108: d59e2fb3290d01aeeb3ec938ffbfe5ed4b1e0a1a
+    749: 09ee9d786d5df1d3ce29b989cbd22eff2d12e7aa
+    731: dd67a9d1339fe68d2a211e5a3909e9b95380ea5e
+    721: 60200eba5ed6bcb310a250087ddf2831abcf6136
+    704: d5f6a3f368e9909b7d076627c9f6ed34cb60c826
+    687: dfcd375bd18049f56cba8ab17f7a7f64697847b1
+    676: 7946b7b95db6d253a1639b49965a99825de5e72f
+    674: 3a02fa9976946c123ea45515404de966ca93155a
+    661: 09a87e1ee438a679d35c6e95fb61bdbe692873c1
+    650: 31ff6bcfa5ce22855e746f583503de8e4585ec56
+
+  Least common:
+    1: ff9046441277fd61c431c5152bd62b2bb59f7b0d
+    1: ffa0df61cfbc4e2f440270695e9332812858ac79
+    1: ffa6489bd7c00b5a146da4d9d9e1228df4a350b7
+    1: ffac65cfde3c2381f1f7430fa1fc696b1eb5eed5
+    1: ffbf7368e8d4ce0c0513f0517774f7af1205a086
+    1: ffc06d2f695c977a6791419ec5fd9ffc714a74a9
+    1: ffd917ce0e916a259e0a07ccdfa47627d6499e9d
+    1: ffe83277e0cf92b47a23177373b428d1fc4d854d
+    1: fff4185dcffaae91108b61793c84a9f8b01a6591
+    1: fff901bde3788697fa99f546c642392d4b785210
+
+BSAT_INVOICES_001.stock_code_hkey: (48/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 3958
+
+  Most common:
+    2313: 2664de1a04eae7822e9a2de5bb537f269a604e91
+    2172: 19f30ecc8dbfd05d5c365c96c8434d66d0b5c603
+    2135: 862465f3fc46d774475b0f9374de32dfb9658b80
+    1706: b83271a338d582a5d8b71f5dc2d11e49375f574d
+    1608: 61ce856087d06ced37a9b0fd817181a320e6b9f2
+    1468: 1d410df7f83c9f5827d8ead2863a7876d6e415da
+    1462: a3f1da7774eb47e58310cd44231bc5bd72a4eee0
+    1442: 421c6ea74d04f3fd473583874cee71baeec5d38c
+    1334: af5e04702825017510b0f7007d4725b0862c0a98
+    1306: 7193bab226e36f8da3287259aa4fb10827978b5f
+
+  Least common:
+    1: f5f8d15e9ff89a4b10048d20350799492206b4b0
+    1: f6765f1a9f51e27f52939420e5d1f5e01685aa52
+    1: f9722178b45fa3b55a1583ea401ec64b8c8c2f27
+    1: f9cf3a2fde2482e6665ccae1300a9240532af0c1
+    1: fa4695aee1f89fc2cd1ff6cc14f5459ab4d2fcf7
+    1: fb1f1c3055bdc53aad7807424dd9d0473a626642
+    1: fca6c40582299e0b3281578f5dff9558e74c25d0
+    1: fd9c2cb5cc20aecb6152af2872c5dfea58ea85ff
+    1: fdfa9a44dcca0cb5ca43c94d7c48250104b5e2f6
+    1: fe85b5bfb62dd38d722066d4520324f8a36b80ec
+
+BSAT_INVOICES_001.customer_code_hkey: (49/93)
+
+  Total rows: 531224
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 4373
+
+  Most common:
+    134542: da39a3ee5e6b4b0d3255bfef95601890afd80709
+    7613: 89944912cb84d86b23810c9723d925e5b83a84be
+    5898: b70cc42d48ff363c2551cfec1382e9fce4a2cc26
+    5097: c552646caf059dd2b3181ecadb4e032d5cb08571
+    4331: 02ff7a796b3e1813d0f252a42bbdc8486258671c
+    2742: 22859089486ff4577792b2c812ce8d2755a90624
+    2469: 6a38bd2ce83b904db1c5b13c72f118d61ac98e4d
+    2085: 4e75c2c3f5551b6550f8d596d3b8d2c5a1c4df83
+    1851: 5be38579f84eb09ace7bcb6aa4a70d0e80be5c1a
+    1655: a3e5ea52b41296cc774cfaba7c00450734a96916
+
+  Least common:
+    1: d4cdfddb341a7e0c7a3c5e80b6458ec14c981fb7
+    1: d5fcf0cbb2d4742217bec8b4d9ffa318661dd56e
+    1: d75de97e68f5c95cc4ee2e13dbf4bbc6210f2b68
+    1: d7d88a81579e075bcac342ec560f2dc3841f4887
+    1: da85f773feb394bb022af48d6f8baa50709c44a9
+    1: de64667dd2c2ceeaf4af0c8dfe4cf08d45ccdab3
+    1: e907d4e786b69bc80a155f49dec45d4c699078bb
+    1: e9be52bfc3ff8544b09c9e0063132975a80db44a
+    1: f86e536f4baaf8787489166682de34f11a395f5f
+    1: ffb90af3983e580d07eb69b969a65b31e085bc16
+
+BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.stock_code_hkey: (50/93)
+
+  Total rows: 3843
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 3843
+
+BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.provider_code: (51/93)
+
+  Total rows: 3843
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    3843: sales/etc/sql/BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001_load.sql
+
+BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.load_dts: (52/93)
+
+  Total rows: 3843
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    3843: 2021-05-13T16:57:56-MST
+
+BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.insert_dts: (53/93)
+
+  Total rows: 3843
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    3843: 2021-05-17T18:38:01.787Z
+
+BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001.preferred_description: (54/93)
+
+  Total rows: 3843
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 3816
+
+  Most common:
+    3: METAL SIGN,CUPCAKE SINGLE HOOK
+    3: COLUMBIAN CANDLE ROUND
+    2: FRENCH LATTICE CUSHION COVER
+    2: FRENCH FLORAL CUSHION COVER
+    2: EAU DE NILE JEWELLED PHOTOFRAME
+    2: COLUMBIAN CUBE CANDLE
+    2: COLUMBIAN CANDLE RECTANGLE
+    2: COLOURING PENCILS BROWN TUBE
+    2: CHERRY BLOSSOM DECORATIVE FLASK
+    2: BATHROOM METAL SIGN
+
+  Least common:
+    1: ZINC METAL HEART DECORATION
+    1: ZINC STAR T-LIGHT HOLDER
+    1: ZINC SWEETHEART SOAP DISH
+    1: ZINC SWEETHEART WIRE LETTER RACK
+    1: ZINC T-LIGHT HOLDER STARS LARGE
+    1: ZINC T-LIGHT HOLDER STARS SMALL
+    1: ZINC TOP 2 DOOR WOODEN SHELF
+    1: ZINC WILLIE WINKIE CANDLE STICK
+    1: ZINC WIRE KITCHEN ORGANISER
+    1: ZINC WIRE SWEETHEART LETTER TRAY
+
+BHUB_STOCK_CODES_001.stock_code_hkey: (55/93)
+
+  Total rows: 3958
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 3958
+
+BHUB_STOCK_CODES_001.provider_code: (56/93)
+
+  Total rows: 3958
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    3958: svc/load/online_retail_II_-_Year_2010-2011.csv
+
+BHUB_STOCK_CODES_001.load_dts: (57/93)
+
+  Total rows: 3958
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    3958: 2021-05-13T16:57:56-MST
+
+BHUB_STOCK_CODES_001.insert_dts: (58/93)
+
+  Total rows: 3958
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    3958: 2021-05-17T18:38:02.802Z
+
+BHUB_STOCK_CODES_001.stock_code: (59/93)
+
+  Total rows: 3958
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 3958
+
+BHUB_INVOICE_CODES_001.invoice_code_hkey: (60/93)
+
+  Total rows: 25900
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 25900
+
+BHUB_INVOICE_CODES_001.provider_code: (61/93)
+
+  Total rows: 25900
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    25900: svc/load/online_retail_II_-_Year_2010-2011.csv
+
+BHUB_INVOICE_CODES_001.load_dts: (62/93)
+
+  Total rows: 25900
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    25900: 2021-05-13T16:57:56-MST
+
+BHUB_INVOICE_CODES_001.insert_dts: (63/93)
+
+  Total rows: 25900
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    25900: 2021-05-17T18:38:04.121Z
+
+BHUB_INVOICE_CODES_001.invoice_code: (64/93)
+
+  Total rows: 25900
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 25900
+
+INFO_WEEKLY_TOP_SALES_RANK_002.end_of_week_ssmtwtf: (65/93)
+
+  Total rows: 270
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 27
+
+  Most common:
+    10: 2011-08-12
+    10: 2011-08-05
+    10: 2011-07-29
+    10: 2011-07-22
+    10: 2011-07-15
+    10: 2011-07-08
+    10: 2011-07-01
+    10: 2011-06-24
+    10: 2011-06-17
+    10: 2011-06-10
+
+  Least common:
+    10: 2011-10-07
+    10: 2011-10-14
+    10: 2011-10-21
+    10: 2011-10-28
+    10: 2011-11-04
+    10: 2011-11-11
+    10: 2011-11-18
+    10: 2011-11-25
+    10: 2011-12-02
+    10: 2011-12-09
+
+INFO_WEEKLY_TOP_SALES_RANK_002.rank: (66/93)
+
+  Total rows: 270
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 10
+
+  Most common:
+    27: 10
+    27: 9
+    27: 8
+    27: 7
+    27: 6
+    27: 5
+    27: 4
+    27: 3
+    27: 2
+    27: 1
+
+INFO_WEEKLY_TOP_SALES_RANK_002.stock_code: (67/93)
+
+  Total rows: 270
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 65
+
+  Most common:
+    25: 85099B
+    24: 22423
+    19: 85123A
+    15: 47566
+    14: 23203
+    14: 22086
+    13: 23355
+    13: 23298
+    9: 23084
+    9: 22197
+
+  Least common:
+    1: 23541
+    1: 23552
+    1: 23554
+    1: 23555
+    1: 23582
+    1: 48138
+    1: 48194
+    1: 82484
+    1: 84347
+    1: 85099F
+
+INFO_WEEKLY_TOP_SALES_RANK_002.preferred_description: (68/93)
+
+  Total rows: 270
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 65
+
+  Most common:
+    25: JUMBO BAG RED RETROSPOT
+    24: REGENCY CAKESTAND 3 TIER
+    19: CREAM HANGING HEART T-LIGHT HOLDER
+    15: PARTY BUNTING
+    14: PAPER CHAIN KIT 50'S CHRISTMAS
+    14: JUMBO BAG DOILEY PATTERNS
+    13: HOT WATER BOTTLE KEEP CALM
+    13: BUNTING , SPOTTY
+    9: SET OF 3 REGENCY CAKE TINS
+    9: RABBIT NIGHT LIGHT
+
+  Least common:
+    1: RED HARMONICA IN BOX
+    1: REGENCY TEAPOT ROSES
+    1: ROTATING SILVER ANGELS T-LIGHT HLDR
+    1: SCOTTIE DOG HOT WATER BOTTLE
+    1: SET 40 HEART SHAPE PETIT FOUR CASES
+    1: SET OF 4 KNICK KNACK TINS DOILEY
+    1: STOP FOR TEA WALL ART
+    1: VINTAGE DOILY JUMBO BAG RED
+    1: WALL ART CLASSIC PUDDINGS
+    1: WOOD BLACK BOARD ANT WHITE FINISH
+
+INFO_WEEKLY_TOP_SALES_RANK_002.quantity: (69/93)
+
+  Total rows: 270
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 247
+
+  Most common:
+    3: 780
+    3: 599
+    2: 437
+    2: 431
+    2: 402
+    2: 349
+    2: 330
+    2: 260
+    2: 231
+    2: 129
+
+  Least common:
+    1: 3124
+    1: 3189
+    1: 3251
+    1: 3799
+    1: 3813
+    1: 4206
+    1: 4270
+    1: 4440
+    1: 4441
+    1: 5592
+
+INFO_WEEKLY_TOP_SALES_RANK_002.avg_price: (70/93)
+
+  Total rows: 270
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 219
+
+  Most common:
+    4: 5.25
+    4: 2.3
+    4: 2.21
+    3: 2.53
+    3: 2.37
+    3: 2.19
+    3: 1.94
+    3: 1.01
+    2: 1.99
+    2: 1.05
+
+  Least common:
+    1: 14.24
+    1: 14.33
+    1: 14.34
+    1: 14.62
+    1: 14.67
+    1: 15.23
+    1: 15.29
+    1: 15.75
+    1: 19.38
+    1: 67.61
+
+INFO_WEEKLY_TOP_SALES_RANK_002.total_sales_revenue: (71/93)
+
+  Total rows: 270
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 270
+
+INFO_SALES_LAST_6_MONTHS_FILTERED_001.description: (72/93)
+
+  Total rows: 100
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 100
+
+INFO_SALES_LAST_6_MONTHS_FILTERED_001.quantity: (73/93)
+
+  Total rows: 100
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 100
+
+INFO_SALES_LAST_6_MONTHS_FILTERED_001.price: (74/93)
+
+  Total rows: 100
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 88
+
+  Most common:
+    3: 2.4
+    2: 5.8
+    2: 4.48
+    2: 3.3
+    2: 2.41
+    2: 2.37
+    2: 2.34
+    2: 2.25
+    2: 2.05
+    2: 1.89
+
+  Least common:
+    1: 9.11
+    1: 9.59
+    1: 9.77
+    1: 11.31
+    1: 12.65
+    1: 13.64
+    1: 14.07
+    1: 25.17
+    1: 384.91
+    1: 649.5
+
+INFO_SALES_LAST_6_MONTHS_FILTERED_001.total_sales_revenue: (75/93)
+
+  Total rows: 100
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 100
+
+_analyze_tables_.table: (76/93)
+
+  Total rows: 85
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 10
+
+  Most common:
+    16: SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001
+    13: BSAT_INVOICES_001
+    10: SRC_online_retail_II_-_Year_2010-2011_002
+    10: SRC_online_retail_II_-_Year_2010-2011_001
+    10: RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001
+    7: INFO_WEEKLY_TOP_SALES_RANK_002
+    5: BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001
+    5: BHUB_STOCK_CODES_001
+    5: BHUB_INVOICE_CODES_001
+    4: INFO_SALES_LAST_6_MONTHS_FILTERED_001
+
+_analyze_tables_.column: (77/93)
+
+  Total rows: 85
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 33
+
+  Most common:
+    8: provider_code
+    8: load_dts
+    5: stock_code
+    5: quantity
+    5: insert_dts
+    4: stock_code_hkey
+    4: price
+    3: invoice_date
+    3: invoice_code_hkey
+    3: description
+
+  Least common:
+    1: avg_price
+    1: country_code_hkey
+    1: customer_code
+    1: end_of_week_ssmtwtf
+    1: hash_diff
+    1: invoice_hkey
+    1: rank
+    1: table
+    2: preferred_description
+    2: total_sales_revenue
+
+_analyze_tables_.total_rows: (78/93)
+
+  Total rows: 85
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 10
+
+  Most common:
+    26: 536642
+    13: 531224
+    10: 541910
+    10: 0
+    7: 270
+    5: 25900
+    5: 3958
+    5: 3843
+    4: 100
+    2: 85
+
+_analyze_tables_.num_null: (79/93)
+
+  Total rows: 85
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 4
+
+  Most common:
+    84: 0
+    2: 1454
+    1: 135080
+    1: 135037
+
+_analyze_tables_.num_blank: (80/93)
+
+  Total rows: 85
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 4
+
+  Most common:
+    86: 0
+    1: 135037
+    1: 134542
+    1: 1454
+
+_analyze_tables_.num_distinct: (81/93)
+
+  Total rows: 85
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 29
+
+  Most common:
+    19: 1
+    10: 0
+    8: 25900
+    5: 3958
+    4: 4373
+    4: 722
+    4: 38
+    3: 1630
+    3: 100
+    3: 10
+
+  Least common:
+    1: 219
+    1: 247
+    1: 270
+    1: 350
+    1: 1570
+    1: 3816
+    1: 3843
+    1: 4224
+    1: 531224
+    1: 536642
+
+_analyze_tables_.most_common: (82/93)
+
+  Total rows: 85
+  Null rows: 21
+  Blank rows: 0
+
+  Distinct values: 60
+
+  Most common:
+    21: None
+    3: [["573585", 1114], ["581219", 749], ["581492", 731], ["580729", 721], ["558475",...
+    3: [["2011-10-31T14:41:00", 1114], ["2011-12-08T09:28:00", 749], ["2011-12-09T10:03...
+    2: [[1.25, 49750], [1.65, 37627], [0.85, 28182], [2.95, 27350], [0.42, 24277], [4.9...
+    2: [[1, 144496], [2, 81245], [12, 60858], [6, 40656], [4, 38393], [3, 36990], [24, ...
+    2: [["svc/load/online_retail_II_-_Year_2010-2011.csv", 536642]]
+    2: [["United Kingdom", 490300], ["Germany", 9480], ["France", 8542], ["EIRE", 8184]...
+    2: [["85123A", 2301], ["22423", 2192], ["85099B", 2156], ["47566", 1720], ["20725",...
+    2: [["2021-05-13T16:57:56-MST", 536642]]
+    1: [["", 134542], ["17841", 7613], ["14911", 5898], ["14096", 5097], ["12748", 4331...
+
+  Least common:
+    1: [[0, 84], [1454, 2], [135080, 1], [135037, 1]]
+    1: [[0, 86], [135037, 1], [134542, 1], [1454, 1]]
+    1: [[1, 140864], [2, 80344], [12, 60795], [6, 40530], [4, 38259], [3, 36746], [24, ...
+    1: [[1, 19], [0, 10], [25900, 8], [3958, 5], [4373, 4], [722, 4], [38, 4], [1630, 3...
+    1: [[1.25, 48997], [1.65, 37066], [0.85, 27744], [2.95, 27038], [0.42, 24038], [4.9...
+    1: [[10, 27], [9, 27], [8, 27], [7, 27], [6, 27], [5, 27], [4, 27], [3, 27], [2, 27...
+    1: [[2.4, 3], [5.8, 2], [4.48, 2], [3.3, 2], [2.41, 2], [2.37, 2], [2.34, 2], [2.25...
+    1: [[5.25, 4], [2.3, 4], [2.21, 4], [2.53, 3], [2.37, 3], [2.19, 3], [1.94, 3], [1....
+    1: [[536642, 26], [531224, 13], [541910, 10], [0, 10], [270, 7], [25900, 5], [3958,...
+    1: [[780, 3], [599, 3], [437, 2], [431, 2], [402, 2], [349, 2], [330, 2], [260, 2],...
+
+_analyze_tables_.least_common: (83/93)
+
+  Total rows: 85
+  Null rows: 45
+  Blank rows: 0
+
+  Distinct values: 28
+
+  Most common:
+    45: None
+    4: [["17925", 1], ["17948", 1], ["17956", 1], ["17986", 1], ["18068", 1], ["18113",...
+    3: [[7006.83, 1], [7427.97, 1], [8286.22, 1], [11062.06, 1], [11586.5, 1], [13474.7...
+    3: [[3100, 1], [3186, 1], [3906, 1], [4000, 1], [4300, 1], [4800, 1], [5568, 1], [1...
+    3: [["wrong code?", 1], ["wrongly coded 23343", 1], ["wrongly coded-23343", 1], ["w...
+    3: [["Saudi Arabia", 10], ["Bahrain", 19], ["Czech Republic", 30], ["Brazil", 32], ...
+    3: [["DCGS0055", 1], ["DCGS0057", 1], ["DCGS0066P", 1], ["DCGS0067", 1], ["DCGS0068...
+    3: [["C581128", 1], ["C581162", 1], ["C581323", 1], ["C581384", 1], ["C581393", 1],...
+    3: [["2011-12-08T18:46:00", 1], ["2011-12-08T18:56:00", 1], ["2011-12-09T09:00:00",...
+    2: [["d4cdfddb341a7e0c7a3c5e80b6458ec14c981fb7", 1], ["d5fcf0cbb2d4742217bec8b4d9ff...
+
+  Least common:
+    1: [["RED HARMONICA IN BOX", 1], ["REGENCY TEAPOT ROSES", 1], ["ROTATING SILVER ANG...
+    1: [["ZINC METAL HEART DECORATION", 1], ["ZINC STAR T-LIGHT HOLDER", 1], ["ZINC SWE...
+    1: [["[[0, 84], [1454, 2], [135080, 1], [135037, 1]]", 1], ["[[0, 86], [135037, 1],...
+    1: [["avg_price", 1], ["country_code_hkey", 1], ["customer_code", 1], ["end_of_week...
+    1: [["ff9046441277fd61c431c5152bd62b2bb59f7b0d", 1], ["ffa0df61cfbc4e2f440270695e93...
+    1: [["ffbd1702071c6f638a847320fcb02be22fb00b75", 1], ["ffc303a4fb279c099ca799986556...
+    1: [[14.24, 1], [14.33, 1], [14.34, 1], [14.62, 1], [14.67, 1], [15.23, 1], [15.29,...
+    1: [[219, 1], [247, 1], [270, 1], [350, 1], [1570, 1], [3816, 1], [3843, 1], [4224,...
+    1: [[3124, 1], [3189, 1], [3251, 1], [3799, 1], [3813, 1], [4206, 1], [4270, 1], [4...
+    1: [[9.11, 1], [9.59, 1], [9.77, 1], [11.31, 1], [12.65, 1], [13.64, 1], [14.07, 1]...
+
+SRC_online_retail_II_-_Year_2010-2011_001.provider_code: (84/93)
+
+  Total rows: 541910
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    541910: svc/load/online_retail_II_-_Year_2010-2011.csv
+
+SRC_online_retail_II_-_Year_2010-2011_001.load_dts: (85/93)
+
+  Total rows: 541910
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1
+
+  Most common:
+    541910: 2021-05-13T16:57:56-MST
+
+SRC_online_retail_II_-_Year_2010-2011_001.Invoice: (86/93)
+
+  Total rows: 541910
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 25900
+
+  Most common:
+    1114: 573585
+    749: 581219
+    731: 581492
+    721: 580729
+    705: 558475
+    687: 579777
+    676: 581217
+    675: 537434
+    662: 580730
+    652: 538071
+
+  Least common:
+    1: C581128
+    1: C581162
+    1: C581323
+    1: C581384
+    1: C581393
+    1: C581463
+    1: C581470
+    1: C581484
+    1: C581499
+    1: C581568
+
+SRC_online_retail_II_-_Year_2010-2011_001.StockCode: (87/93)
+
+  Total rows: 541910
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 4070
+
+  Most common:
+    2313: 85123A
+    2203: 22423
+    2159: 85099B
+    1727: 47566
+    1639: 20725
+    1502: 84879
+    1477: 22720
+    1476: 22197
+    1385: 21212
+    1350: 20727
+
+  Least common:
+    1: DCGS0055
+    1: DCGS0057
+    1: DCGS0066P
+    1: DCGS0067
+    1: DCGS0068
+    1: DCGS0071
+    1: DCGS0072
+    1: DCGS0073
+    1: DCGS0074
+    1: m
+
+SRC_online_retail_II_-_Year_2010-2011_001.Description: (88/93)
+
+  Total rows: 541910
+  Null rows: 1454
+  Blank rows: 0
+
+  Distinct values: 4223
+
+  Most common:
+    2369: WHITE HANGING HEART T-LIGHT HOLDER
+    2200: REGENCY CAKESTAND 3 TIER
+    2159: JUMBO BAG RED RETROSPOT
+    1727: PARTY BUNTING
+    1638: LUNCH BAG RED RETROSPOT
+    1501: ASSORTED COLOUR BIRD ORNAMENT
+    1473: SET OF 3 CAKE TINS PANTRY DESIGN 
+    1454: None
+    1385: PACK OF 72 RETROSPOT CAKE CASES
+    1350: LUNCH BAG  BLACK SKULL.
+
+  Least common:
+    1: wrong code?
+    1: wrongly coded 23343
+    1: wrongly coded-23343
+    1: wrongly marked
+    1: wrongly marked 23343
+    1: wrongly marked carton 22804
+    1: wrongly marked. 23343 in box
+    1: wrongly sold (22719) barcode
+    1: wrongly sold as sets
+    1: wrongly sold sets
+
+SRC_online_retail_II_-_Year_2010-2011_001.Quantity: (89/93)
+
+  Total rows: 541910
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 722
+
+  Most common:
+    148228: 1
+    81829: 2
+    61063: 12
+    40868: 6
+    38484: 4
+    37121: 3
+    24021: 24
+    22288: 10
+    13129: 8
+    11757: 5
+
+  Least common:
+    1: 80995
+    1: 824
+    1: 828
+    1: 832
+    1: 852
+    1: 860
+    1: 906
+    1: 912
+    1: 968
+    1: 992
+
+SRC_online_retail_II_-_Year_2010-2011_001.InvoiceDate: (90/93)
+
+  Total rows: 541910
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 23260
+
+  Most common:
+    1114: 2011-10-31T14:41:00
+    749: 2011-12-08T09:28:00
+    731: 2011-12-09T10:03:00
+    721: 2011-12-05T17:24:00
+    705: 2011-06-29T15:58:00
+    687: 2011-11-30T15:13:00
+    676: 2011-12-08T09:20:00
+    675: 2010-12-06T16:57:00
+    662: 2011-12-05T17:28:00
+    652: 2010-12-09T14:09:00
+
+  Least common:
+    1: 2011-12-08T18:46:00
+    1: 2011-12-08T18:56:00
+    1: 2011-12-09T09:00:00
+    1: 2011-12-09T09:15:00
+    1: 2011-12-09T09:27:00
+    1: 2011-12-09T09:44:00
+    1: 2011-12-09T10:02:00
+    1: 2011-12-09T10:28:00
+    1: 2011-12-09T11:50:00
+    1: 2011-12-09T11:57:00
+
+SRC_online_retail_II_-_Year_2010-2011_001.Price: (91/93)
+
+  Total rows: 541910
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 1630
+
+  Most common:
+    50496: 1.25
+    38181: 1.65
+    28497: 0.85
+    27768: 2.95
+    24533: 0.42
+    19040: 4.95
+    18600: 3.75
+    17697: 2.1
+    17091: 2.46
+    17005: 2.08
+
+  Least common:
+    1: 97.14
+    1: 97.35
+    1: 97.79
+    1: 97.96
+    1: 98.18
+    1: 98.54
+    1: 98.75
+    1: 98.79
+    1: 987.14
+    1: 988
+
+SRC_online_retail_II_-_Year_2010-2011_001.Customer ID: (92/93)
+
+  Total rows: 541910
+  Null rows: 135080
+  Blank rows: 0
+
+  Distinct values: 4372
+
+  Most common:
+    135080: None
+    7983: 17841
+    5903: 14911
+    5128: 14096
+    4642: 12748
+    2782: 14606
+    2491: 15311
+    2085: 14646
+    1857: 13089
+    1677: 13263
+
+  Least common:
+    1: 17925
+    1: 17948
+    1: 17956
+    1: 17986
+    1: 18068
+    1: 18113
+    1: 18141
+    1: 18174
+    1: 18184
+    1: 18233
+
+SRC_online_retail_II_-_Year_2010-2011_001.Country: (93/93)
+
+  Total rows: 541910
+  Null rows: 0
+  Blank rows: 0
+
+  Distinct values: 38
+
+  Most common:
+    495478: United Kingdom
+    9495: Germany
+    8558: France
+    8196: EIRE
+    2533: Spain
+    2371: Netherlands
+    2069: Belgium
+    2002: Switzerland
+    1519: Portugal
+    1259: Australia
+
+  Least common:
+    10: Saudi Arabia
+    19: Bahrain
+    30: Czech Republic
+    32: Brazil
+    35: Lithuania
+    45: Lebanon
+    58: RSA
+    61: European Community
+    68: United Arab Emirates
+    127: Malta
+
+2021-05-17T11:45:00-MST [INFO] - Splitting svc/load/online_retail_II_-_Year_2010-2011.csv into svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011__###
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_000.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_001.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_002.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_003.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_004.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_005.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_006.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_007.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_008.csv
+   50000 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_009.csv
+   41911 svc/load/split_online_retail_II/online_retail_II_-_Year_2010-2011_010.csv
+  541911 total
+2021-05-17T11:45:00-MST [INFO] - Loading data from svc/load/online_retail_II_-_Year_2010-2011.csv into SRC_online_retail_II_-_Year_2010-2011_001.sales.db
+2021-05-17T11:45:28-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered.sql and exporting to svc/static/online_retail_II_last_6_months_filtered.csv
+2021-05-17T11:45:29-MST [INFO] - Creating table RAW_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T11:45:29-MST [INFO] - Executing etc/sql/online_retail_II_last_6_months_filtered_002.sql and exporting to svc/static/online_retail_II_last_6_months_filtered_002.csv
+2021-05-17T11:45:31-MST [INFO] - Creating table SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:45:31-MST [INFO] - Creating table SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001
+2021-05-17T11:45:31-MST [INFO] - Loading csv files from /Users/brianmcmillan/projects/sales/svc/load/online_retail_II and loading into svc/load/online_retail_II/load.csv
+2021-05-17T11:45:31-MST [INFO] - no files to process in svc/load/online_retail_II/
+sort: No such file or directory
+wc: svc/load/online_retail_II/load.csv: open: No such file or directory
+2021-05-17T11:45:31-MST [INFO] - Extracting data from svc/load/online_retail_II/load.csv and loading into load/SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:45:31-MST [WARNING] - svc/load/online_retail_II/load.csv file does not exist
+0 records in SRC_online_retail_II_-_Year_2010-2011_002
+2021-05-17T11:45:31-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_load.sql
+
+2021-05-17T11:45:31-MST [INFO] - Executing etc/sql/SAT_ONLINE_RETAIL_II_YEAR_2010_2011_001_clean.sql
+
+2021-05-17T11:45:31-MST [INFO] - Creating table BSAT_INVOICES_001
+2021-05-17T11:45:31-MST [INFO] - Executing etc/sql/BSAT_INVOICES_001_load.sql
+
+2021-05-17T11:46:03-MST [INFO] - Creating table BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001
+2021-05-17T11:46:03-MST [INFO] - Executing etc/sql/BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001_load.sql
+
+Error: near line 7: attempt to write a readonly database
+make: *** [load/BLNK_STOCK_CODE_PREFERRED_DESCRIPTION_001] Error 1
+2021-05-18T00:00:00-MST [INFO] - Executing log_rotate

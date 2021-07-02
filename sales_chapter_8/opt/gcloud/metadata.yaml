@@ -1,0 +1,37 @@
+title: Sales Data Discovery Platform
+license: CC Attribution 4.0 License
+license_url: http://creativecommons.org/licenses/by/4.0/
+source: Building Data Products
+source_url: https://github.com/
+databases:
+  sales:
+    source: Manual report - online_retail_II.xlsx-Year_2010-2011
+    description_html: |-
+       <strong>Description:</strong> Invoice data provided from a report.<br>
+       <strong>Source:</strong> Manual extract<br>
+       <strong>File:</strong> online_retail_II.xlsx-Year_2010-2011<br>
+       <p></p>
+       <a href = "mailto: sales.manager@example.com">Business Contact</a><br>
+       <a href = "mailto: data.sales@example.com">Technical Contact</a>
+    tables:
+      INFO_WEEKLY_TOP_SALES_RANK_001:
+        description_html: |-
+         <strong>Description:</strong> Sales revenue for the top 10 products in each week of the previous 6 months.<br>
+         <strong>Source:</strong> Database view<br>
+         <strong>Source table(s):</strong> INFO_SALES_LAST_6_MONTHS_FILTERED_002
+         <p></p>
+         <strong>Reports:</strong><br>
+         <a href="http://192.168.1.251:8001/static/WEEKLY_TOP_SALES_RANK_001.html" target="_blank">Embedded JSON data set</a><br>
+         <a href="http://192.168.1.251:8001/static/WEEKLY_TOP_SALES_RANK_002.html" target="_blank">API call</a><br>
+         <a href="http://192.168.1.251:8001/static/WEEKLY_TOP_SALES_RANK_004.html" target="_blank">API call v2</a><br>
+         <a href="http://192.168.1.251:8001/static/WEEKLY_TOP_SALES_RANK_003.html" target="_blank">Linked file</a>
+         <p></p>
+      INFO_WEEKLY_TOP_SALES_RANK_002:
+        description_html: |-
+         <strong>Description:</strong> Sales revenue for the top 10 products in each week of the previous 6 months.<br>
+         <strong>Source:</strong> Database table<br>
+         <strong>Source table(s):</strong> INFO_WEEKLY_TOP_SALES_RANK_002
+         <p></p>
+         <strong>Reports:</strong><br>
+         <a href="/static/WEEKLY_TOP_SALES_RANK_004.html" target="_blank">Weekly Top Sales Rank</a><br>
+         <p></p>

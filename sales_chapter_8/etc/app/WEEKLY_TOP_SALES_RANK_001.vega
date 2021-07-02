@@ -1,0 +1,7 @@
+"mark": {"type": "bar", "tooltip": {"content": "data"}},
+  "resolve": {"axis": {"x": "independent", "y": "independent"}},
+  "encoding": {
+    "facet": {"field": "preferred_description", "type": "ordinal", "columns": 3, "sort": {"op": "sum", "field": "total_sales_revenue", "order": "descending"}},
+    "x": {"field": "end_of_week_ssmtwtf", "type": "temporal", "title": "Period", "timeUnit": "month"},
+    "y": {"field": "total_sales_revenue", "type": "quantitative", "title": "Value (GBP)", "aggregate": "sum"},
+  "color": {"field": "preferred_description", "type": "nominal", "title": "Description", "sort": {"op": "sum", "field": "total_sales_revenue", "order": "descending"}}
