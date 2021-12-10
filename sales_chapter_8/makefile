@@ -283,7 +283,7 @@ log_rotate:
 
 compact_database:
 	@$(SQLITE3) $(DBFILE) "PRAGMA optimize;" && echo $(DTS)    [INFO] - Optimizing database
-	@$(SQLITE3) $(DBFILE) "PRAGMA auto_vacuum;" && echo $(DTS)    [INFO] - Vacuuming database
+	@$(SQLITE3) $(DBFILE) "PRAGMA vacuum;" && echo $(DTS)    [INFO] - Vacuuming database
 	@$(SQLITE3) $(DBFILE) "PRAGMA integrity_check;" && echo $(DTS)    [INFO] - Performing integrity check
 
 .PHONY: template/src_from_csv
