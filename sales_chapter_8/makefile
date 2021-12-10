@@ -905,7 +905,9 @@ start/gcloud: build/gcloud test/gcloud_config
 	--memory 2Gi \
 	--install=datasette-vega \
 	--install=datasette-copyable \
-	--extra-options="--setting sql_time_limit_ms 10000"
+	--extra-options="--setting allow_download off" \
+	--extra-options="--setting default_page_size 1000" \
+	--static static:opt/$(notdir $@)/static/
 
 test/gcloud:
 	@$(if $(shell curl $(strip $(GCLOUD_URL)) -fIs | head -n 1), \
