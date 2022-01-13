@@ -34,7 +34,7 @@ DATASETTE := $(PYENVDIR)/datasette
 ERALCHEMY := $(PYENVDIR)/eralchemy
 
 # Project directory paths
-ROOTDIR := $(shell pwd)
+ROOTDIR := "$(shell pwd)"
 PROJECTDIR := $(ROOTDIR)
 PROJECTNAME := $(notdir $(ROOTDIR))
 # /etc
